@@ -3,6 +3,7 @@ import { validateBeforeTransaction } from "./Utils";
 import { ObjectStoreMeta, ObjectStoreSchema } from "./indexed-hooks";
 import { createReadwriteTransaction } from "./createReadwriteTransaction";
 import { createReadonlyTransaction } from "./createReadonlyTransaction";
+import { window } from 'browser-monads';
 
 export type Key =
   | string
