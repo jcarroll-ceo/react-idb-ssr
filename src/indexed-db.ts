@@ -3,7 +3,9 @@ import { validateBeforeTransaction } from "./Utils";
 import { ObjectStoreMeta, ObjectStoreSchema } from "./indexed-hooks";
 import { createReadwriteTransaction } from "./createReadwriteTransaction";
 import { createReadonlyTransaction } from "./createReadonlyTransaction";
-import { window } from 'browser-monads';
+
+const monads = require('browser-monads');
+const window = monads.window;
 
 export type Key =
   | string
