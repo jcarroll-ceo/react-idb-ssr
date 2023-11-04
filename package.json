@@ -1,6 +1,6 @@
 {
-  "name": "react-indexed-db",
-  "version": "2.0.1",
+  "name": "react-idb-ssr",
+  "version": "1.0.1",
   "description": "React wrapper to IndexedDB database.",
   "main": "lib/main.js",
   "types": "lib/index.d.ts",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/assuncaocharles/react-indexed-db.git"
+    "url": "git+https://github.com/jcarroll-ceo/react-idb-ssr"
   },
   "author": "Charles Assunção",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/assuncaocharles/react-indexed-db/issues"
+    "url": "https://github.com/jcarroll-ceo/react-idb-ssr/issues"
   },
   "keywords": [
     "indexed",
@@ -35,9 +35,11 @@
     "react",
     "reactjs",
     "database",
-    "storage"
+    "storage",
+    "ssr",
+    "gatsby"
   ],
-  "homepage": "https://github.com/assuncaocharles/react-indexed-db",
+  "homepage": "https://github.com/jcarroll-ceo/react-idb-ssr",
   "peerDependencies": {
     "react": "^18.2.0"
   },
@@ -57,5 +59,9 @@
     "typescript": "^5.0.2",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "browser-monads": "^1.0.0",
+    "karma": "^6.4.2"
   }
 }
